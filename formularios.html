@@ -7,11 +7,27 @@
 </head>
 <body>
     <h1>Formularios</h1>
-    <form action="">
-        <p>NOME <input type="text" name="NOME" id="NOME"></INPut>
+    <form action="cadastro.php" autocomplete="on">
+        
+        <p><label for="inome">NOME</label> <input type="text" name="nome" id="inome"></INPut>
         </p>
-        <P>SOBRENOME <input type="text" name="sobrenome" id="sobrenome"></P>
+        <P><label for="isobrenome">SOBRENOME </label><input type="text" name="sobrenome" id="isobrenome"></P>
         <p><input type="submit" value="enviar"></p>
+       
     </form>
+    <p>
+        detalhe: para retirar ao alto complete automatico é so acrecentar o atributo no formulario autocomplet = off
+    </p>
+    <p>
+      diferença entre ID e name <br>
+para linguage de PHP e para o HTML os imputs do formularios tem que estar identificado atravres do NAMA <br>
+ja no javascript é mai utilizado o ID como imput.
+    </p>
+    <p><strong>LABEL</strong> e uma tag para lincar uma paravra a um campo de imput
+        
+    </p>
+    <p>para os dados dos formularioa não selam vistos na URl precisas acrecentar o atributo <strong>metod que pode ser post ou get</strong></p>
+
+
 </body>
 </html>
